@@ -1,7 +1,7 @@
 import json
 from urllib import request
 from time import sleep
-user_api = '1c0be6bf-e4a8-4807-bc3d-83183356944a'
+user_api = '' #Put API key here
 featured_url = 'https://na.api.pvp.net/observer-mode/rest/featured?api_key={}'.format(user_api)
 champions_url = 'https://global.api.pvp.net/api/lol/static-data/na/v1.2/champion?api_key={}'.format(user_api)
 with open('meta_adcs.txt') as a:
